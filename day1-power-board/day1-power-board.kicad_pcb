@@ -2071,6 +2071,167 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Pad_2.0x2.0mm"
+		(layer "F.Cu")
+		(uuid "da42dcbb-46ec-42e2-9028-4ae1db5401fb")
+		(at 168.5 80.5)
+		(descr "SMD rectangular pad as test Point, square 2.0mm side length")
+		(tags "test point SMD pad rectangle square")
+		(property "Reference" "TP1"
+			(at 0 -1.998 0)
+			(layer "F.SilkS")
+			(uuid "8dc65815-238d-4f4b-aae1-9f8808e03c2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "5V_TEST"
+			(at 0 2.05 0)
+			(layer "F.Fab")
+			(uuid "9e42ee67-96bc-4004-91e4-2fc37188f505")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb5d00b5-dfcd-443e-a1e0-86ea98ef69e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f80a99ac-94bd-4b08-a2f0-3631dc824a85")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/0f4af57a-a1e4-4ffb-a7dc-be0c8cd22d85")
+		(sheetname "/")
+		(sheetfile "day1-power-board.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_line
+			(start -1.2 -1.2)
+			(end 1.2 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8e6d36e1-550b-4aaa-ab7f-8fa9df7b43da")
+		)
+		(fp_line
+			(start -1.2 1.2)
+			(end -1.2 -1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "39976751-edb1-4eea-8e6d-21207cdb3643")
+		)
+		(fp_line
+			(start 1.2 -1.2)
+			(end 1.2 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "29376045-ef0d-493e-83d6-f32eca39497d")
+		)
+		(fp_line
+			(start 1.2 1.2)
+			(end -1.2 1.2)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c404bfb4-9e87-4432-be58-d19a52685739")
+		)
+		(fp_line
+			(start -1.5 -1.5)
+			(end -1.5 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6a7c13f5-5b23-446b-bf11-4f84287d282f")
+		)
+		(fp_line
+			(start -1.5 -1.5)
+			(end 1.5 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "feedc34f-be55-4f50-ae9e-9fd7a03bb26d")
+		)
+		(fp_line
+			(start 1.5 1.5)
+			(end -1.5 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7e67c3f2-6ae8-4d78-bce6-896f9d3509d4")
+		)
+		(fp_line
+			(start 1.5 1.5)
+			(end 1.5 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d7c54712-b6bc-4c96-bfce-1dead811ac89")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2 0)
+			(layer "F.Fab")
+			(uuid "4705b834-56a8-4845-a3cb-b554b6891c8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd rect
+			(at 0 0)
+			(size 2 2)
+			(layers "F.Cu" "F.Mask")
+			(net 3 "+5V")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e923adcb-cca0-460f-8297-089ed3ade348")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "eae8d00f-b20d-465f-948c-14738603aa83")
@@ -2408,6 +2569,14 @@
 		(uuid "80f792f6-7955-4c59-bfac-3653e855b8bd")
 	)
 	(segment
+		(start 165.5 83.5)
+		(end 168.5 80.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "a0edec49-e823-4daa-9bdb-fc08cdb82006")
+	)
+	(segment
 		(start 148.5 91.5)
 		(end 152.5 91.5)
 		(width 0.5)
@@ -2430,6 +2599,14 @@
 		(layer "F.Cu")
 		(net 3)
 		(uuid "d0cf49bc-8ba8-456a-a27b-5c5264453da7")
+	)
+	(segment
+		(start 165.5 87.8275)
+		(end 165.5 83.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "e5a79da7-1c63-4817-b7a7-921663e79294")
 	)
 	(segment
 		(start 153 92)
