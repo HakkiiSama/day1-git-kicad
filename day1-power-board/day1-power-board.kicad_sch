@@ -1809,7 +1809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 126.6952 82.55 0)
 			(effects
 				(font
@@ -1879,7 +1879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 223.52 64.77 0)
 			(effects
 				(font
@@ -1949,7 +1949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.1952 83.82 0)
 			(effects
 				(font
@@ -2105,7 +2105,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 173.6852 83.82 0)
 			(effects
 				(font
@@ -2306,7 +2306,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 83.82 67.31 0)
 			(effects
 				(font
@@ -2442,7 +2442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 141.9352 82.55 0)
 			(effects
 				(font
@@ -2512,7 +2512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 201.422 80.01 90)
 			(effects
 				(font
@@ -2714,7 +2714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 203.2 69.85 0)
 			(effects
 				(font
@@ -2858,7 +2858,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
 			(at 157.48 59.69 0)
 			(effects
 				(font
