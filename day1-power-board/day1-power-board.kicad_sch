@@ -1056,6 +1056,232 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor:RPR-0521RS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RPR-0521RS"
+				(at 6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Sensor:Rohm_RPR-0521RS"
+				(at 0 5.969 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/optical_sensor/opto_module/rpr-0521rs-e.pdf"
+				(at 0.127 -6.223 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Digital Proximity and Ambient Light Sensor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "sensor light"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Rohm?RPR?0521*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RPR-0521RS_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "RPR-0521RS_1_1"
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "LED_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "LED_K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "LDR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1510,7 +1736,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 59.69) (xy 217.17 59.69)
+			(xy 196.85 59.69) (xy 217.17 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1926,7 +2152,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 199.39 59.69 0)
+		(at 196.85 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1935,7 +2161,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f4af57a-a1e4-4ffb-a7dc-be0c8cd22d85")
 		(property "Reference" "TP1"
-			(at 201.93 55.1179 0)
+			(at 199.39 55.1179 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +2170,7 @@
 			)
 		)
 		(property "Value" "5V_TEST"
-			(at 201.93 57.6579 0)
+			(at 199.39 57.6579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +2179,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 204.47 59.69 0)
+			(at 201.93 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1962,7 +2188,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 59.69 0)
+			(at 201.93 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,7 +2197,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 199.39 59.69 0)
+			(at 196.85 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,6 +3263,94 @@
 			(project ""
 				(path "/36a2fab3-956e-472e-853f-9772f700f857"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor:RPR-0521RS")
+		(at 154.94 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee7a0b9e-e850-4194-a072-88e7db214665")
+		(property "Reference" "U2"
+			(at 157.0833 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RPR-0521RS"
+			(at 157.0833 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MYLIBRARY:MY_SENSOR_1x04_P2.54mm"
+			(at 154.94 33.401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/opto/optical_sensor/opto_module/rpr-0521rs-e.pdf"
+			(at 155.067 45.593 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Digital Proximity and Ambient Light Sensor"
+			(at 154.94 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "efe70f77-caf3-4edf-bdd0-ae8b12d852cd")
+		)
+		(pin "4"
+			(uuid "67b9886d-861a-4558-b1b4-3d748af9d125")
+		)
+		(pin "1"
+			(uuid "4da0bdd9-bcff-4e06-a6f7-2f865c5beffc")
+		)
+		(pin "5"
+			(uuid "9fd61b9d-f7d8-412d-827d-749367d240af")
+		)
+		(pin "7"
+			(uuid "38964efb-ccce-486e-9f2a-3a2b74c72bef")
+		)
+		(pin "8"
+			(uuid "b8aed497-0e7e-4ca0-899e-00cc04792ca6")
+		)
+		(pin "6"
+			(uuid "fc4db337-abeb-4041-9ac0-4545185f8431")
+		)
+		(pin "3"
+			(uuid "f2260902-46c9-40af-a785-897e12d0bb45")
+		)
+		(instances
+			(project ""
+				(path "/36a2fab3-956e-472e-853f-9772f700f857"
+					(reference "U2")
 					(unit 1)
 				)
 			)
