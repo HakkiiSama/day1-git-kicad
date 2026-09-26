@@ -7,3 +7,4 @@ fp-info-cache
 _autosave-*
 *.lck
 ~*
+\#auto_saved_files#
