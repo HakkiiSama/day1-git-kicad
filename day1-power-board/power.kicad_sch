@@ -1056,131 +1056,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1480,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 73.66) (xy 198.12 74.93)
+			(xy 198.12 68.58) (xy 198.12 74.93)
 		)
 		(stroke
 			(width 0)
@@ -1497,16 +1372,6 @@
 			(type default)
 		)
 		(uuid "162f0491-0c61-495e-a8a8-80382394d1b2")
-	)
-	(wire
-		(pts
-			(xy 204.47 73.66) (xy 198.12 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "199f0516-0b95-4620-a248-e853832a17d0")
 	)
 	(wire
 		(pts
@@ -1537,16 +1402,6 @@
 			(type default)
 		)
 		(uuid "36cc4c82-18fa-4d57-8c21-f0eba0c114ad")
-	)
-	(wire
-		(pts
-			(xy 194.31 73.66) (xy 194.31 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43bf3c2e-fc78-4b54-bb5f-a3c92d4c3b1a")
 	)
 	(wire
 		(pts
@@ -1891,7 +1746,7 @@
 	)
 	(hierarchical_label "5V_OUT"
 		(shape input)
-		(at 204.47 73.66 0)
+		(at 198.12 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2596,72 +2451,6 @@
 			(project "day1-power-board"
 				(path "/36a2fab3-956e-472e-853f-9772f700f857/1ea3b6f2-161e-4151-b76b-a485480dee21"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 194.31 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93ff4097-c104-48de-b7d0-79575ac199a3")
-		(property "Reference" "#PWR05"
-			(at 194.31 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 194.31 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 194.31 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 194.31 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91ea0ac5-c890-490a-b4b9-d3bd55301b97")
-		)
-		(instances
-			(project "day1-power-board"
-				(path "/36a2fab3-956e-472e-853f-9772f700f857/1ea3b6f2-161e-4151-b76b-a485480dee21"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
