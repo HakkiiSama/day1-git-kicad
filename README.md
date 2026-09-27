@@ -2,4 +2,8 @@
 
 KiCad and Git practice project.
 
+## Tools
 
+- KiCad
+- Git
+- GitHub
